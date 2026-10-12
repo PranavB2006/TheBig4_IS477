@@ -14,9 +14,17 @@ Mukund Kasisomayajula (Cleaning and Integration): Cleans and merges the data in 
 
 Gary Mei (Quality and Analysis): Runs quality checks; produces summary statistics and visualizations.
 
-## Research Questions
+### Research Questions
  
 1. Do counties with higher unemployment rates tend to have higher diabetes and obesity prevalence?
 2. Is median household income associated with county-level diabetes and obesity prevalence?
 3. Do these relationships differ between metropolitan and nonmetropolitan counties?
 4. How do missing values and differences in dataset coverage affect the reliability of the integrated analysis?
+
+### Datasets
+ 
+All three are public government datasets with well over 100 records each, linked by **county FIPS code**. No Kaggle data is used.
+ 
+1. **CDC PLACES: County Data** ([link](https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/fu4u-a9bh)). County-level diabetes and obesity prevalence. The file has multiple rows per county (one per measure), so we will filter and reshape to one row per county.
+2. **USDA ERS County-Level Data Sets** ([link](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data)). County unemployment rates and median household income. Exact files and columns will be confirmed at download.
+3. **USDA ERS 2023 Rural-Urban Continuum Codes** ([link](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes)). RUCC codes 1–3 will be classified as metropolitan and 4–9 as nonmetropolitan, while preserving the original code.
