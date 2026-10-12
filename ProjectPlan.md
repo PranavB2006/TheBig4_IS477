@@ -65,9 +65,10 @@ Raw files go in `data/raw/` unmodified; cleaned data in `data/processed/`; repor
 - Legal and ethical: All sources are public, but we still need to confirm terms of use and attribution requirements. We use aggregate county data only and make no individual-level claims.
 - Technical: The PLACES file is large and in long format, so reshaping and validating it correctly will take careful work.
 - Ecological fallacy and confounding: County-level patterns do not describe individuals, and factors like age and healthcare access may influence results.
+
 If a key variable is unavailable, we will revise the analysis rather than make unsupported assumptions.
 
-## 8. Gaps
+## Gaps
 
 | Gap | Plan to resolve | Owner |
 |---|---|---|
