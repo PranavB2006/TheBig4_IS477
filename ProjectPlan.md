@@ -79,3 +79,6 @@ If a key variable is unavailable, we will revise the analysis rather than make u
 | Confounder handling and expected analysis depth (correlation vs. regression) | Ask instructor or TA for guidance | Pranav Bhongir and Gary Mei |
 | Later course topics are not yet known | Revisit and update this plan after each course unit | All |
 
+## Expected Deliverables
+
+A cleaned, integrated county-level dataset; pre- and post-integration quality reports; summary statistics, visualizations, and written findings; a documented workflow and README; and GitHub history with a `project-plan` tag.
