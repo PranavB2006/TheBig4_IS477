@@ -13,3 +13,8 @@ Jake Adams (Data Acquisition): Downloads the datasets; documents source links, r
 Mukund Kasisomayajula (Cleaning and Integration): Cleans and merges the data in Pandas; checks identifiers, missing values, and duplicates.
 
 Gary Mei (Quality and Analysis): Runs quality checks; produces summary statistics and visualizations.
+
+## Research Questions
+ 
+1. Do counties with higher unemployment rates tend to have higher diabetes and obesity prevalence?
+2. Is median household income associated with county-level diabetes and obesity prevalence?
