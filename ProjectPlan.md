@@ -66,3 +66,15 @@ Raw files go in `data/raw/` unmodified; cleaned data in `data/processed/`; repor
 - Technical: The PLACES file is large and in long format, so reshaping and validating it correctly will take careful work.
 - Ecological fallacy and confounding: County-level patterns do not describe individuals, and factors like age and healthcare access may influence results.
 If a key variable is unavailable, we will revise the analysis rather than make unsupported assumptions.
+
+## 8. Gaps
+
+| Gap | Plan to resolve | Owner |
+|---|---|---|
+| Exact ERS files and column names are unconfirmed | Review ERS documentation and downloads; record versions | Jake Adams |
+| PLACES release year may not align with ERS economic years | Compare available years; choose closest match; document mismatch | Jake Adams and Gary Mei |
+| RUCC 2023 may not match the data years | Confirm appropriateness; document if not exact | Mukund Kasisomayajula |
+| Metro/nonmetro grouping (1–3 vs. 4–9) may need justification | Review ERS guidance; consider a sensitivity check | Pranav Bhongir and Mukund Kasisomayajula |
+| Confounder handling and expected analysis depth (correlation vs. regression) | Ask instructor or TA for guidance | Pranav Bhongir and Gary Mei |
+| Later course topics are not yet known | Revisit and update this plan after each course unit | All |
+
