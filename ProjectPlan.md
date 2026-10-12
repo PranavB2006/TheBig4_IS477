@@ -28,3 +28,7 @@ All three are public government datasets with well over 100 records each, linked
 1. **CDC PLACES: County Data** ([link](https://data.cdc.gov/500-Cities-Places/PLACES-Local-Data-for-Better-Health-County-Data-20/fu4u-a9bh)). County-level diabetes and obesity prevalence. The file has multiple rows per county (one per measure), so we will filter and reshape to one row per county.
 2. **USDA ERS County-Level Data Sets** ([link](https://www.ers.usda.gov/data-products/county-level-data-sets/county-level-data-sets-download-data)). County unemployment rates and median household income. Exact files and columns will be confirmed at download.
 3. **USDA ERS 2023 Rural-Urban Continuum Codes** ([link](https://www.ers.usda.gov/data-products/rural-urban-continuum-codes)). RUCC codes 1–3 will be classified as metropolitan and 4–9 as nonmetropolitan, while preserving the original code.
+
+Each dataset contributes different information: PLACES provides the health outcomes, the ERS county data provides the economic indicators, and the RUCC file provides the geographic setting. Together they let us compare health outcomes against economic conditions across metropolitan and nonmetropolitan counties.
+ 
+Raw files go in `data/raw/` unmodified; cleaned data in `data/processed/`; reports and figures in `outputs/`. Scripts are `src/acquire_data.py`, `src/clean_integrate.py`, `src/analyze.py`, and `run_all.py`, using relative paths. We will record source URLs, download dates, and reference years.
