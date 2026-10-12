@@ -7,6 +7,9 @@ We will use Python and Pandas to acquire, clean, validate, and integrate the dat
 
 ### Team
 Pranav Bhongir (Planning and Documentation): Maintains the project plan and README; documents research questions, sources, constraints, and limitations.
+
 Jake Adams (Data Acquisition): Downloads the datasets; documents source links, reference years, and data-use terms.
+
 Mukund Kasisomayajula (Cleaning and Integration): Cleans and merges the data in Pandas; checks identifiers, missing values, and duplicates.
+
 Gary Mei (Quality and Analysis): Runs quality checks; produces summary statistics and visualizations.
