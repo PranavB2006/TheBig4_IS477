@@ -80,5 +80,8 @@ If a key variable is unavailable, we will revise the analysis rather than make u
 | Later course topics are not yet known | Revisit and update this plan after each course unit | All |
 
 ## Expected Deliverables
-
-A cleaned, integrated county-level dataset; pre- and post-integration quality reports; summary statistics, visualizations, and written findings; a documented workflow and README; and GitHub history with a `project-plan` tag.
+- A cleaned, integrated county-level dataset
+- Pre- and post-integration quality reports
+- Summary statistics, visualizations, and written findings
+- A documented workflow and README
+- GitHub history with a `project-plan` tag.
