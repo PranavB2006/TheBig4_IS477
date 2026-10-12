@@ -32,3 +32,27 @@ All three are public government datasets with well over 100 records each, linked
 Each dataset contributes different information: PLACES provides the health outcomes, the ERS county data provides the economic indicators, and the RUCC file provides the geographic setting. Together they let us compare health outcomes against economic conditions across metropolitan and nonmetropolitan counties.
  
 Raw files go in `data/raw/` unmodified; cleaned data in `data/processed/`; reports and figures in `outputs/`. Scripts are `src/acquire_data.py`, `src/clean_integrate.py`, `src/analyze.py`, and `run_all.py`, using relative paths. We will record source URLs, download dates, and reference years.
+
+## Methods
+
+- **Cleaning and integration:** We will first make sure all FIPS codes follow the same five-digit format, including any leading zeros. We will then check data types, missing values, and duplicate records before merging the datasets using county FIPS codes. After each merge, we will check how many counties were successfully matched and whether any records were lost. Any unexpected values or duplicates will be reviewed rather than automatically deleted.
+
+- **Data quality:** We will evaluate the quality of each dataset both before and after combining them. This includes checking whether the values are reasonable, how much data is missing, whether all counties are represented, and whether the datasets cover similar time periods. We will also make sure identifiers and data types are consistent across sources. A short quality report will document our findings at each stage.
+
+- **Analysis:** We will use Python, mainly Pandas and Matplotlib, to explore how unemployment rates and median household income relate to diabetes and obesity prevalence across U.S. counties. Our analysis will include summary statistics, correlations, and scatterplots to identify patterns in the data. We will also compare metropolitan and nonmetropolitan counties to see whether these relationships differ between the two groups.
+
+- **Reproducibility:** We will organize our code into separate scripts for downloading, cleaning, and analyzing the data. These scripts will run in order through `run_all.py`, allowing someone else to repeat our process using the original datasets. We will also include a `requirements.txt` file for dependencies, explain how to run the project in the README, and regularly commit our progress to GitHub.
+
+- **Ethics and licensing:** We will follow the terms of use for each dataset and properly credit the original sources. Since our analysis focuses on county-level data, we will avoid making conclusions about individual people. We will also be careful not to interpret correlations as proof that economic conditions directly cause certain health outcomes.
+
+## Timeline
+
+| Phase | Tasks | Target | Owner |
+|---|---|---|---|
+| 1. Planning | Finalize our research questions, identify data sources, and complete the initial project plan | Week 1 | Pranav Bhongir (all members review) |
+| 2. Data acquisition | Download the datasets and document their sources, reference years, and usage requirements | Week 1 | Jake Adams |
+| 3. Quality assessment | Review data types, missing values, duplicates, and county coverage; prepare an initial quality report | Week 2 | Gary Mei |
+| 4. Cleaning and integration | Standardize FIPS codes, clean variables, organize the PLACES dataset, and merge the datasets | Week 2 | Mukund Kasisomayajula |
+| 5. Analysis | Calculate summary statistics and correlations, compare metro and nonmetro counties, create visualizations, and complete the final quality report | Week 3 | Gary Mei |
+| 6. Validation | Run `run_all.py` from start to finish, check for errors, and review the results for consistency | Week 3 | Mukund Kasisomayajula (all members review) |
+| 7. Finalization | Update the README, review the completed project, commit final changes, and tag the project plan | Week 4 | All members |
