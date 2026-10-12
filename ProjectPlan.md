@@ -56,3 +56,13 @@ Raw files go in `data/raw/` unmodified; cleaned data in `data/processed/`; repor
 | 5. Analysis | Calculate summary statistics and correlations, compare metro and nonmetro counties, create visualizations, and complete the final quality report | Week 3 | Gary Mei |
 | 6. Validation | Run `run_all.py` from start to finish, check for errors, and review the results for consistency | Week 3 | Mukund Kasisomayajula (all members review) |
 | 7. Finalization | Update the README, review the completed project, commit final changes, and tag the project plan | Week 4 | All members |
+
+## Constraints
+- Different reference years: Health, economic, and rurality data may cover different periods; we will document years and avoid implying exact comparability.
+- Missing counties: Some counties may be absent from a source; we will report unmatched records and never treat missing values as zero.
+- Variable definitions and formats: Definitions may differ across sources, and file or column names may change; we will check documentation and record exact versions.
+- FIPS identifiers: Incorrect formatting, such as lost leading zeros, can cause bad merges.
+- Legal and ethical: All sources are public, but we still need to confirm terms of use and attribution requirements. We use aggregate county data only and make no individual-level claims.
+- Technical: The PLACES file is large and in long format, so reshaping and validating it correctly will take careful work.
+- Ecological fallacy and confounding: County-level patterns do not describe individuals, and factors like age and healthcare access may influence results.
+If a key variable is unavailable, we will revise the analysis rather than make unsupported assumptions.
