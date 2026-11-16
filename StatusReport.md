@@ -16,14 +16,14 @@ We finished our project plan and decided on our research questions, datasets, me
 
 We also updated our project plan based on the feedback we got for Milestone 2. We changed our fourth research question to focus on data completeness and added specific dates to our timeline.
 
-Our project plan can be found in ProjectPlan.md.
+Our project plan can be found in [ProjectPlan.md](ProjectPlan.md).
 
 ### 2. Data Acquisition
 **Status: Completed**
 
 We collected the three government datasets we need for our project. The CDC PLACES dataset gives us diabetes and obesity rates for each county. The USDA economic dataset gives us unemployment rates and median household income. The USDA Rural-Urban Continuum Codes help us separate counties into metropolitan and nonmetropolitan groups.
 
-We also looked at the sources and years for each dataset to see if there were any differences. We kept the original files in the `data/raw/` folder so we can go back to them if needed.
+We also looked at the sources and years for each dataset to see if there were any differences. We have collected the original datasets and reviewed their sources and reference years. We are also working on organizing the files so they can be included in our GitHub repository. 
 
 ### 3. Initial Quality Assessment
 
@@ -55,7 +55,7 @@ We will also make scatterplots and compare metropolitan counties (RUCC 1–3) wi
  
 **Status: In Progress**
  
-We are working on making sure our code runs correctly from start to finish. We plan to use `run_all.py` to run the scripts for collecting, cleaning, combining, and analyzing the data.
+We are working on making sure our code runs correctly from start to finish. We plan to check that our Python scripts run correctly from start to finish. We will test the steps for collecting, cleaning, combining, and analyzing the data. We will also check the final results for errors to make sure our work can be repeated.
  
 We will also check the final dataset and results for errors or values that do not make sense. This will help make sure someone else can run our code and get the same results.
 
