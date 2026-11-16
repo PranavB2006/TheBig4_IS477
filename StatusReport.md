@@ -89,6 +89,24 @@ The second change was to our timeline. Our original timeline only listed tasks b
  
 Other than these changes, we kept our original research questions, datasets, and methods the same because they still work for our project.
 
+## Challenges and Solutions
+ 
+### Different Data Formats
+ 
+One challenge was that the datasets were organized differently. The CDC PLACES dataset had multiple rows for each county, while the USDA datasets were organized differently. We fixed this by making sure each county had one row in the PLACES dataset before combining everything.
+ 
+### County FIPS Codes
+ 
+Another challenge was making sure the county FIPS codes matched correctly. Some FIPS codes can lose their leading zeros when stored as numbers. We fixed this by making sure all the codes had five digits before combining the datasets.
+ 
+### Missing Values and County Coverage
+ 
+Some counties may not have complete information across all three datasets. We are keeping track of missing values and counties that did not match. During our analysis, we will calculate the percentage of counties with complete data and explain how missing information affects our results.
+ 
+### Different Reference Years
+ 
+Our datasets may cover different years, which can make comparisons harder. We will explain these differences in our final report. We will also be careful not to assume that one variable causes another just because they are related.
+
 ## Individual Team Contributions
 
 ### Pranav Bhongir — Planning and Documentation
