@@ -90,7 +90,7 @@ I worked on the planning and documentation for our project. I helped come up wit
 I worked on collecting the datasets for our project. I downloaded the CDC PLACES and USDA datasets and looked at their sources and reference years. I also made sure we had the information needed to combine the datasets using county FIPS codes. My work helped get the data ready for cleaning and integration.
 
 ### Gary Mei — Quality and Analysis
- 
+
 I worked on checking the quality of our datasets before we combined them. I looked for missing values, duplicate records, different data types, and missing counties. I also checked for differences between the datasets that could affect our results. This helped us figure out what needed to be fixed before cleaning and combining the data.
  
 ## Next Steps
