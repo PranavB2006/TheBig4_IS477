@@ -32,3 +32,11 @@ We also looked at the sources and years for each dataset to see if there were an
 We checked the datasets for missing values, duplicate records, different data types, and missing counties. We also made sure the county identifiers were consistent and that the values made sense.
 
 Since the datasets came from different sources, we also looked at differences in the years they covered. This helped us figure out what needed to be fixed before combining the data.
+
+
+## Individual Team Contributions
+
+### Pranav Bhongir — Planning and Documentation
+
+I worked on the planning and documentation for our project. I helped come up with our research questions, identify our goals, and decide on the methods we would use. I also updated our project plan based on the feedback from Milestone 2. For this milestone, I helped write the interim status report and update our timeline.
+
