@@ -107,6 +107,10 @@ Some counties may not have complete information across all three datasets. We ar
 
 Our datasets may cover different years, which can make comparisons harder. We will explain these differences in our final report. We will also be careful not to assume that one variable causes another just because they are related.
 
+### Organizing Files in Github
+
+Another challenge has been organizing all our project files in one place. Some of our datasets and Python scripts are currently saved on individual team members' computers. We plan to upload these files to our shared GitHub repository so everyone can access them. This will also make it easier to test our workflow and complete the remaining parts of the project.
+
 ## Individual Team Contributions
 
 ### Pranav Bhongir — Planning and Documentation
