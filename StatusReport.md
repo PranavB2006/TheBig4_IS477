@@ -79,6 +79,16 @@ We still need to update the README, explain our results, organize the output fil
 | Workflow validation | In progress | Dec 2–4 | Mukund and all members |
 | Finalization and documentation | In progress | Dec 5–6 | All members |
 
+## Changes to Our Project Plan
+ 
+After getting feedback on Milestone 2, we made two changes to our project plan.
+ 
+The first change was to our fourth research question. Originally, we wanted to see how missing values and differences in dataset coverage affected the reliability of our analysis. Our professor suggested that we explain what we meant by reliability and how we would measure it. We changed the question to focus on data completeness instead. We also added a way to measure this by calculating the percentage of counties that have complete data across all three datasets.
+ 
+The second change was to our timeline. Our original timeline only listed tasks by week. We updated it to include specific dates for each task so it is easier to track our progress and see when things need to be finished.
+ 
+Other than these changes, we kept our original research questions, datasets, and methods the same because they still work for our project.
+
 ## Individual Team Contributions
 
 ### Pranav Bhongir — Planning and Documentation
