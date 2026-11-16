@@ -94,7 +94,7 @@ I worked on collecting the datasets for our project. I downloaded the CDC PLACES
 I worked on checking the quality of our datasets before we combined them. I looked for missing values, duplicate records, different data types, and missing counties. I also checked for differences between the datasets that could affect our results. This helped us figure out what needed to be fixed before cleaning and combining the data.
  
 ## Next Steps
- 
+
 Our main goal now is to finish analyzing the combined dataset. We will calculate summary statistics and correlations, make graphs, and compare health outcomes between metropolitan and nonmetropolitan counties.
  
 After that, we will check our workflow to make sure everything runs correctly. We will also review our results and finish explaining our methods and findings.
