@@ -80,31 +80,31 @@ We still need to update the README, explain our results, organize the output fil
 | Finalization and documentation | In progress | Dec 5–6 | All members |
 
 ## Changes to Our Project Plan
- 
+
 After getting feedback on Milestone 2, we made two changes to our project plan.
- 
+
 The first change was to our fourth research question. Originally, we wanted to see how missing values and differences in dataset coverage affected the reliability of our analysis. Our professor suggested that we explain what we meant by reliability and how we would measure it. We changed the question to focus on data completeness instead. We also added a way to measure this by calculating the percentage of counties that have complete data across all three datasets.
- 
+
 The second change was to our timeline. Our original timeline only listed tasks by week. We updated it to include specific dates for each task so it is easier to track our progress and see when things need to be finished.
- 
+
 Other than these changes, we kept our original research questions, datasets, and methods the same because they still work for our project.
 
 ## Challenges and Solutions
- 
+
 ### Different Data Formats
- 
+
 One challenge was that the datasets were organized differently. The CDC PLACES dataset had multiple rows for each county, while the USDA datasets were organized differently. We fixed this by making sure each county had one row in the PLACES dataset before combining everything.
- 
+
 ### County FIPS Codes
- 
+
 Another challenge was making sure the county FIPS codes matched correctly. Some FIPS codes can lose their leading zeros when stored as numbers. We fixed this by making sure all the codes had five digits before combining the datasets.
- 
+
 ### Missing Values and County Coverage
- 
+
 Some counties may not have complete information across all three datasets. We are keeping track of missing values and counties that did not match. During our analysis, we will calculate the percentage of counties with complete data and explain how missing information affects our results.
- 
+
 ### Different Reference Years
- 
+
 Our datasets may cover different years, which can make comparisons harder. We will explain these differences in our final report. We will also be careful not to assume that one variable causes another just because they are related.
 
 ## Individual Team Contributions
@@ -118,7 +118,7 @@ I worked on the planning and documentation for our project. I helped come up wit
 I worked on collecting the datasets for our project. I downloaded the CDC PLACES and USDA datasets and looked at their sources and reference years. I also made sure we had the information needed to combine the datasets using county FIPS codes. My work helped get the data ready for cleaning and integration.
 
 ### Mukund Kasisomayajula — Cleaning and Integration
- 
+
 I worked on cleaning and combining the datasets using Python and Pandas. I made sure all the county FIPS codes had five digits and checked for missing values and duplicates. I also organized the CDC PLACES data so each county had one row. After that, I combined the health, economic, and rural-urban data into one dataset for our analysis.
 
 ### Gary Mei — Quality and Analysis
