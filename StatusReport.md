@@ -67,6 +67,18 @@ We have already finished our initial documentation and updated our project plan 
  
 We still need to update the README, explain our results, organize the output files, and review the final project. We will also make sure all the required files are in our GitHub repository.
 
+## Updated Project Timeline
+ 
+| Phase | Status | Target Dates | Owner |
+|---|---|---|---|
+| Planning and documentation | Completed | Oct 5–12 | Pranav |
+| Data acquisition | Completed | Oct 13–20 | Jake |
+| Initial quality assessment | Completed | Oct 21–28 | Gary |
+| Cleaning and integration | Completed | Oct 29–Nov 15 | Mukund |
+| Data analysis | In progress | Nov 16–20 | Gary |
+| Workflow validation | In progress | Dec 2–4 | Mukund and all members |
+| Finalization and documentation | In progress | Dec 5–6 | All members |
+
 ## Individual Team Contributions
 
 ### Pranav Bhongir — Planning and Documentation
