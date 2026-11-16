@@ -19,7 +19,7 @@ Gary Mei (Quality and Analysis): Runs quality checks; produces summary statistic
 1. Do counties with higher unemployment rates tend to have higher diabetes and obesity prevalence?
 2. Is median household income associated with county-level diabetes and obesity prevalence?
 3. Do these relationships differ between metropolitan and nonmetropolitan counties?
-4. How do missing values and differences in dataset coverage affect the reliability of the integrated analysis?
+4. How do missing values and differences in county coverage affect the completeness of our integrated dataset, and what percentage of counties have complete data across all three sources?
 
 ### Datasets
  
