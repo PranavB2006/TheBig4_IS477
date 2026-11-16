@@ -76,3 +76,15 @@ I worked on the planning and documentation for our project. I helped come up wit
 ### Jake Adams — Data Acquisition
  
 I worked on collecting the datasets for our project. I downloaded the CDC PLACES and USDA datasets and looked at their sources and reference years. I also made sure we had the information needed to combine the datasets using county FIPS codes. My work helped get the data ready for cleaning and integration.
+
+### Gary Mei — Quality and Analysis
+ 
+I worked on checking the quality of our datasets before we combined them. I looked for missing values, duplicate records, different data types, and missing counties. I also checked for differences between the datasets that could affect our results. This helped us figure out what needed to be fixed before cleaning and combining the data.
+ 
+## Next Steps
+ 
+Our main goal now is to finish analyzing the combined dataset. We will calculate summary statistics and correlations, make graphs, and compare health outcomes between metropolitan and nonmetropolitan counties.
+ 
+After that, we will check our workflow to make sure everything runs correctly. We will also review our results and finish explaining our methods and findings.
+ 
+Overall, we have finished the first four parts of our project and are now working on completing the remaining tasks.
