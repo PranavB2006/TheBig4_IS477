@@ -23,7 +23,7 @@ Our project plan can be found in [ProjectPlan.md](ProjectPlan.md).
 
 We collected the three government datasets we need for our project. The CDC PLACES dataset gives us diabetes and obesity rates for each county. The USDA economic dataset gives us unemployment rates and median household income. The USDA Rural-Urban Continuum Codes help us separate counties into metropolitan and nonmetropolitan groups.
 
-We also looked at the sources and years for each dataset to see if there were any differences. We have collected the original datasets and reviewed their sources and reference years. We are also working on organizing the files so they can be included in our GitHub repository. 
+We also looked at the sources and years for each dataset to see if there were any differences. We uploaded all three original datasets to our [data/raw/](data/raw/) folder on GitHub. This allows all team members to access the same files and use them for the remaining parts of the project.
 
 ### 3. Initial Quality Assessment
 
@@ -33,15 +33,19 @@ We checked the datasets for missing values, duplicate records, different data ty
 
 Since the datasets came from different sources, we also looked at differences in the years they covered. This helped us figure out what needed to be fixed before combining the data.
 
+We also created a data quality summary to help us check the completeness of our combined dataset.
+
 ### 4. Cleaning and Integration
  
 **Status: Completed**
  
 We cleaned and combined the three datasets using county FIPS codes. We made sure all the FIPS codes had five digits and checked for missing values, duplicates, and different data types.
- 
+
 We also organized the CDC PLACES dataset so each county had one row with its health information. After that, we combined it with the economic data and rural-urban codes.
- 
+
 We checked for counties that did not match between the datasets. We also made sure not to replace missing values with zero since that could affect our results. We will use the cleaned dataset for the next part of our project.
+
+We uploaded our cleaning script and integration script to GitHub. We also uploaded our cleaned dataset to the data/processed/ folder so everyone can access it.
 
 ### 5. Data Analysis
  
@@ -55,9 +59,9 @@ We will also make scatterplots and compare metropolitan counties (RUCC 1–3) wi
  
 **Status: In Progress**
  
-We are working on making sure our code runs correctly from start to finish. We plan to check that our Python scripts run correctly from start to finish. We will test the steps for collecting, cleaning, combining, and analyzing the data. We will also check the final results for errors to make sure our work can be repeated.
- 
-We will also check the final dataset and results for errors or values that do not make sense. This will help make sure someone else can run our code and get the same results.
+We are working on making sure our Python scripts run correctly from start to finish. We will test the cleaning and integration scripts to make sure they work with the datasets in our GitHub repository.
+
+We will also check the final dataset and analysis results for errors or values that do not make sense. This will help make sure someone else can run our code and get the same results.
 
 ### 7. Finalization and Documentation
  
@@ -109,7 +113,7 @@ Our datasets may cover different years, which can make comparisons harder. We wi
 
 ### Organizing Files in Github
 
-Another challenge has been organizing all our project files in one place. Some of our datasets and Python scripts are currently saved on individual team members' computers. We plan to upload these files to our shared GitHub repository so everyone can access them. This will also make it easier to test our workflow and complete the remaining parts of the project.
+Another challenge was organizing all our project files in one place. Some of our datasets and Python scripts were originally saved on individual team members' computers. We fixed this by uploading the original datasets, cleaning and integration scripts, and cleaned dataset to our shared GitHub repository. This makes it easier for everyone to access the files and work on the remaining parts of the project.
 
 ## Individual Team Contributions
 
